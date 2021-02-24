@@ -1,6 +1,58 @@
-h1{
+header{
+    background-color:#3DCCC7 ;
+    position: fixed;
     font-family: 'Indie Flower', cursive;
+    text-align: center;
+    top:0;
+    width: 100%;
+}
+.main{
+    margin-top: 150px;
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: #C4FFF9;
+}
+a:link{
+    color: rgb(53, 8,80);
+}
+a:visited{
+    color: silver;
+}
+ul a{
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+article{
+    background-color:#3DCCC7 ;
+    
+}
+section{
+    background-color:#3DCCC7 ;
+}
+ul li{
+    color: teal;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+section h2{
+    text-align: center;
+}
+#pancake{
+    float: right;
+}
+.lunch{
+    clear: right;
+}
+#pizza{
+    float:left;
+}
+.ptext{
+    clear:left;
 }
